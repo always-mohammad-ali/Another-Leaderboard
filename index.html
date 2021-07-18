@@ -6,16 +6,190 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Another Leaderboard</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="https://kit.fontawesome.com/b4b295e3ab.js" crossorigin="anonymous"></script>
 </head>
-<body>
+<body w-100 style="background-color: #E5E5E5;">
     <header>
-
+        <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #562EFF;">
+            <div class="container">
+              <a class="navbar-brand d-flex align-items-center" href="#">
+                <img src="images/icons/logo.png" alt="" width="40" height="51" class="d-inline-block align-text-top">
+                <span class="m-2">Idea</span>
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0 d-flex align-items-center m-2 ">
+                  <li class="nav-item ">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item ">
+                    <a class="nav-link active" aria-current="page" href="#">About</a>
+                  </li>
+                  <li class="nav-item ">
+                    <a class="nav-link active" aria-current="page" href="#">Works</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="navbar-brand" href="#">
+                        <img src="images/icons/profile.png" alt="" width="51" height="51" class="d-inline-block align-text-top"></a>
+                  </li>
+                   
+                </ul>
+               
+              </div>
+            </div>
+          </nav>
     </header>
     <main>
+        <section class="container bg-white">
+            <div>
+                    <h3 class="mb-2 mt-4 pt-3 text-primary">Top Players</h3>
+                <div class="row gy-4 pb-2 mt-2">   
+                    <div class="col col-12 col-lg-4 col-md-6   d-flex align-items-center">
+                        <img width="56px" src="images/players/player-1.png" alt="">
+                        <h4 class="ms-3">Asad</h4>
+                    </div>    
+                    <div class="col col-12 col-md-6 col-lg-4   d-flex align-items-center">
+                        <img width="56px" src="images/players/player-2.png" alt="">
+                        <h4 class="ms-3">Murad</h4>
+                    </div>    
+                    <div class="col col-12 col-lg-4 col-md-6  d-flex align-items-center">
+                        <img width="56px" src="images/players/player-3.png" alt="">
+                        <h4 class="ms-3">Safin</h4>
+                    </div>    
+                    <div class="col col-12 col-lg-4 col-md-6 d-flex align-items-center">
+                        <img width="56px" src="images/players/player-4.png" alt="">
+                        <h4 class="ms-3">Jahin</h4>
+                    </div>    
+                    <div class="col col-12 col-lg-4 col-md-6 d-flex align-items-center">
+                        <img width="56px" src="images/players/player-5.png" alt="">
+                        <h4 class="ms-3">Fahim</h4>
+                    </div>    
+                    <div class="col col-12 col-lg-4 col-md-6 d-flex align-items-center">
+                        <img width="56px" src="images/players/player-6.png" alt="">
+                        <h4 class="ms-3">Daud</h4>
+                    </div>
+                </div>     
+            </div>
+            <hr>
+            <div>
+                <h3 class="text-primary mb-4 mt-3">Top Blog</h3>
+                <div class="row gy-4">
+                    <div class="col col-12 col-md-12 col-lg-6 d-flex align-items-center">
+                        <img width="177px" src="images/blogs/blog-1.png" alt="">
+                        <div class="ms-4">
+                            <h5>
+                                13 of My FavoriteUI/UX Goodies
+                            </h5>
+                            <p>By <span class="text-primary"> Imran </span> </p>
+                        </div>
+                    </div>
+                    <div class="col col-12 col-md-12 col-lg-6 d-flex align-items-center">
+                        <img width="177px" src="images/blogs/blog-2.png" alt="">
+                        <div class="ms-4">
+                            <h5>
+                                UI cheat sheet: list vs grids
+                            </h5>
+                            <p>By <span class="text-primary"> Tushar </span> </p>
+                        </div>
+                    </div>
+                    <div class="col col-12 col-md-12 col-lg-6 d-flex align-items-center">
+                        <img width="177px" src="images/blogs/blog-3.png" alt="">
+                        <div class="ms-4">
+                            <h5>
+                                7 typography tips for interface design
+                            </h5>
+                            <p>By <span class="text-primary"> Efty </span> </p>
+                        </div>
+                    </div>
+                    <div class="col col-12 col-md-12 col-lg-6 d-flex align-items-center">
+                        <img width="177px" src="images/blogs/blog-4.png" alt="">
+                        <div class="ms-4">
+                            <h5>
+                                Your logo is copied
+                            </h5>
+                            <p>By <span class="text-primary"> Abdur Rahman </span> </p>
+                        </div>
+                    </div>
+                </div>
 
+            </div>
+
+        </section>
+        <section class="container bg-white mt-4">
+            <h3 class="text-primary mt-4 mb-4 pt-3">
+                Latest Courses
+            </h3>
+            <div class="row">
+                <div class="col col-12 col-md-6 col-lg-4">
+                    <img width="224px" src="images/courses/course-1.png" alt="">
+                    <h4 class="w-50">React - The Complete Guide 2021</h4>
+                    <p class="text-primary">MD.Naiem</p>
+                    <div class="d-flex align-items-center" >
+                        <div>
+                            <i class="far fa-star text-warning"></i>
+                            <i class="far fa-star text-warning"></i>
+                            <i class="far fa-star text-warning"></i>
+                            <i class="far fa-star text-warning"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                        
+                        <p class="ps-4 mt-3 text-secondary">4.5</p>
+                        <i class="far fa-clock  ps-5  text-danger ">1:30hr</i> 
+                          
+
+                    </div>
+
+
+                </div>
+                <div class="col col-12 col-md-6 col-lg-4">
+                    <img width="224px" src="images/courses/course-2.png" alt="">
+                    <h4 class="w-50">Powerpoint 2021 Master Powerpoint Cour</h4>
+                    <p class="text-primary">Abdur Rahman</p>
+                    <div class="d-flex align-items-center" >
+                        <div>
+                            <i class="far fa-star text-warning"></i>
+                            <i class="far fa-star text-warning"></i>
+                            <i class="far fa-star text-warning"></i>
+                            <i class="far fa-star text-warning"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                        
+                        <p class="ps-4 mt-3 text-secondary">4.5</p>
+                        <i class="far fa-clock  ps-5  text-danger ">1:30hr</i> 
+                          
+
+                    </div>
+
+
+                </div>
+                <div class="col col-12 col-md-6 col-lg-4">
+                    <img width="224px" src="images/courses/course-3.png" alt="">
+                    <h4 class="w-50">The Complete JavaScript Course 2021</h4>
+                    <p class="text-primary">Rifat</p>
+                    <div class="d-flex align-items-center" >
+                        <div>
+                            <i class="far fa-star text-warning"></i>
+                            <i class="far fa-star text-warning"></i>
+                            <i class="far fa-star text-warning"></i>
+                            <i class="far fa-star text-warning"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                        
+                        <p class="ps-4 mt-3 text-secondary">4.5</p>
+                        <i class="far fa-clock  ps-5  text-danger ">1:30hr</i> 
+                          
+
+                    </div>
+
+
+                </div>
+            </div>
+        </section>
     </main>
-    <footer>
-
+    <footer class="d-flex justify-content-center">
+            <p>All <i class="far fa-copyright"></i> rights reserved by <span class="fs-5">Mohammad Ali</span> 
     </footer>
     <script src="js/bootstrap.bundle.min.js"></script>
 </body>
